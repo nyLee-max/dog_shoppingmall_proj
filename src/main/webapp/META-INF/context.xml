@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Context>
 	<Resource 
-		name="jdbc/login_web"
-		username="user_login_web"
+		name="jdbc/dog_shoppingmall_proj"
+		username="user_shoppingmall"
 		password="rootroot"
-		url="jdbc:mysql://localhost:3306/login_web?useSSL=false"
+		url="jdbc:mysql://localhost:3306/shoppingmall?useSSL=false"
 		
 		auth="Container"
 		type="javax.sql.DataSource"
 		driverClassName="com.mysql.jdbc.Driver"
 		factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
-		maxTotal="100"
-		maxIdle="10"
+		maxTotal="100000"
+		maxIdle="100"
 		maxWaitMills="-1" />
 </Context>
