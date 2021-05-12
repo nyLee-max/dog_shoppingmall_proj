@@ -13,7 +13,14 @@ public class Dog {
 	
 	public Dog() {
 	}
-	
+
+
+	public Dog(int id) {
+		super();
+		this.id = id;
+	}
+
+
 	public Dog(int id, String kind, int price, String image, String country, int height, int weight, String content,
 			int readcount) {
 		super();

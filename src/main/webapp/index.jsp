@@ -9,6 +9,6 @@
 </head>
 <body>
 <%=JndiDs.getConnection() %>
-Hi~~~
+<a href="dogList.do">개 쇼핑몰</a>
 </body>
 </html>

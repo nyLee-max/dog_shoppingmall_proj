@@ -30,3 +30,8 @@ ALTER TABLE shoppingmall.Dog
 
 ALTER TABLE shoppingmall.Dog
 	MODIFY COLUMN id INT NOT NULL AUTO_INCREMENT COMMENT '아이디';
+
+/*--권한 부여*/
+grant all
+   on shoppingmall.*
+   to 'user_shoppingmall'@'localhost' identified by 'rootroot';
